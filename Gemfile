@@ -31,6 +31,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :test do
+  #this comment should cause merge conflict from irakli
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
   gem 'capybara', '2.1.0'
