@@ -31,10 +31,16 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 group :test do
+<<<<<<< HEAD
   #This comment should cause a merge conflict from EVAN!!!
+=======
+  #this comment should cause merge conflict from irakli
+>>>>>>> a1fdbbdb73c0ad205d74da07f9ea7861c8c56a92
   gem 'cucumber-rails'
   gem 'cucumber-rails-training-wheels'
   gem 'capybara', '2.1.0'
+  gem 'rspec-rails', '2.13.1'
+
 end
 
 group :doc do
@@ -53,3 +59,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
